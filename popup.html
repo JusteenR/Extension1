@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initia-scale-1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie-edge">
+  <title>Justeen</title>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+  <style>
+  .grid-container {
+    display: grid;
+    grid-template-columns: 110px 60px 60px;
+    grid-gap: 5px;
+    padding: 5px;
+    grid-auto-rows: 50px 50px 50px;
+
+  }
+  .grid-container>div {
+    text-align: center;
+    padding:10px 0;
+    font-size: 17px;
+    font-family: Tahoma;
+    transition: opacity 0.2s ease-in-out;
+    align-content: space-around;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border: 1px black solid;
+  }
+  .item1 {
+    grid-row-end: span 3;
+    line-height: 3px;
+
+  }
+  .item2 {
+  grid-column-end: span 2;
+
+}
+
+a:link, a:visited{
+  color: black;
+  outline: 0;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffcb0c;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.fab , .far {
+  font-size: 30px;
+}
+  </style>
+</head>
+<body>
+
+    <div class="grid-container">
+  <div class="item1"><img src="images/j.png">Justeen R<br/><span class="version">(1.0.0)</span></div>
+  <div class="item2">Learn More About Me</div>
+
+  <div class="icon"><a href="https://www.facebook.com/justeen.randev" target="_blank"><i class="fab fa-facebook"></i></a></div>
+  <div class="icon"><a href="https://github.com/JusteenR" target="_blank"><i class="fab fa-github"></i></a></div>
+  <div class="icon"><a href="https://www.linkedin.com/in/justeen-randev/" target="_blank"><i class="fab fa-linkedin"></i></a></div>
+  <div class="icon"><a href="https://justeenr.github.io." target="_blank"><i class="far fa-smile"></i></a></div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "My Extension",
+  "version": "1.0.0",
+  "description": "My first try, links to my pages",
+  "manifest_version": 2,
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Myself",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"]
+}
